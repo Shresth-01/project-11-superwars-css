@@ -1,4 +1,45 @@
+body{
+  background-color: rgb(224, 224, 224);
+  
+}
+#container{
+  display: flex;
+  justify-content: center;
+  margin: 2%;
+  height: 90vh;
+  background-color: rgb(255, 255, 255);
+  box-shadow:0px 5px 15px grey;
+}
+.h-img{
+  height: 80px;
+  width: 75px;
+  display: flex;
+  justify-content: center;
+  
+}
+.hero_container{
+  border: 2px solid rgb(215, 213, 213);
+  border-radius: 5px;
+  box-shadow:2px 2px 2px grey;
+  height: 180px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px ;
+}
+.h-name{
+  text-align: center;
+}
+.score{
+  font-size: xx-large;
+}
+.scorecard{
+  margin-left: 7%;
+  margin-right: 7%;
+  font-size: xxx-large;
+}
 .footer{
-  margin-left : 80px;
-  font-size : 18px;
+  text-align: center;
 }
